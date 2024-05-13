@@ -4,32 +4,22 @@ using namespace std;
 
 int main() {
 
+  int arr[5]= {1,2,3,4,5};
+  int even{0};
+  int odd{0};
 
-int values{0};
+  for (int i = 0; i < 5; i++) {
 
-  
-  cout << "How many values do you want the array to contain? ";
-  cin >> values;
-  
-int arr[values];
-  
-  for (int i =0; i<values; i++) {
-    cout << "input value number " << i+1 << ": ";
-    cin >> arr[i]; 
-    
+  if (arr[i]%2 == 0) {
+    even++; } else {
+    odd++;
+    }
   }
 
-  cout << "array values: ";
-  
-  for (int i =0; i < values; i++) {
-    cout << arr[i] << " ";
-  }
-  ; 
+  cout << "number of even: " << even << "." <<endl;
+  cout <<"number of odd: " <<odd<< ".";
 
 
-
-
-  
   
   
 }
