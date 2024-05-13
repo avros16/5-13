@@ -1,0 +1,24 @@
+1. Write a program that calculate the sum of all elements in an integer array
+
+2. Write a program to find and print the maximum value in array of integers.
+
+3. Extend program 1 to calculate the average of all element in an array. Take n = number of elements from the user as well as the integers inside the array.
+
+4. Create a program that counts the number of even and odd number.
+
+5. Write a C++ program that allows users to select products from a list and enter the quantity they wish to purchase. The program will then calculate the total cost of the products based on the prices stored in an array.
+
+Steps:
+
+You have two arrays: one for the product names and one for the corresponding prices.
+Display the list of products to the user.
+Allow the user to select a product by entering its index (starting from 1).
+Ask the user to enter the quantity of the selected product.
+Calculate the total price for that product (price * quantity).
+Display the total cost to the user.
+
+
+
+
+
+
