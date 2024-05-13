@@ -4,21 +4,24 @@ using namespace std;
 
 int main() {
 
-  int arr[5]= {1,2,3,4,5};
-  int even{0};
-  int odd{0};
+int item{0};
+  int count{0};
 
-  for (int i = 0; i < 5; i++) {
+int arr1[5]={20,15,60,5,8};
+string arr2[5] = {"1. Laptop", "2. notebook", "3. Bookbag", "4. pencil", "5. pen"};
 
-  if (arr[i]%2 == 0) {
-    even++; } else {
-    odd++;
-    }
+
+cout << "Hello, welcome to the store. Today, we have the following items in stock: "<< endl; 
+
+  for (int i = 0; i <5; i++){
+    cout << arr2[i] << endl;
   }
 
-  cout << "number of even: " << even << "." <<endl;
-  cout <<"number of odd: " <<odd<< ".";
+cout << "enter the number of the item you would like to buy: ";
+  cin >> item;
 
+  cout << "how many do you need? ";
+  cin >> count;
 
   
   
